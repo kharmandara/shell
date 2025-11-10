@@ -28,12 +28,7 @@ unzip -q rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data
-<<<<<<< HEAD
 mkdir data
-=======
-
-
->>>>>>> 51f608271341d2eb0f5a80b6f8a57c97a17d2cd5
 # 2. Move the ./rawdata directory to ./data/raw
 cd data
 mkdir raw
@@ -61,11 +56,10 @@ rm ../../processed/user_logs/*ipaddr*
 cd ../../processed
 ls
 touch ../inventory.txt
-#nano ../inventory.txt
 ls server_logs >> ../inventory.txt
 ls user_logs >> ../inventory.txt
 ls event_logs >> ../inventory.txt
 
 ###########################################
 
-echo "Project setup is complete!"'''
+echo "Project setup is complete!"
