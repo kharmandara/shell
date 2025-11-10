@@ -28,41 +28,13 @@ unzip -q rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data
-mkdir data
+
 
 # 2. Move the ./rawdata directory to ./data/raw
 
-#Step1 relocate to where rawdata file is
-cd /02_activities/assignments
-
-#Step2 make the folder "raw" in the data directory
-#Step 2.1 go to data directory 
-cd ./02_activities/data
-#Step 2.2 make a folder called "raw"
-mkdir raw
-
-#Step3 go back to directory where rawdata.zip is
-cd ./02_activities/assignments
-#list the contents here
-ls
-
-#Step4 move the rawdata to data/raw
-mv rawdata.zip ./dsi4/shell/data/raw
-
 # 3. List the contents of the ./data/raw directory
-#go to the raw directory
-cd ./dsi4/shell/data/raw
-#list the content there
-ls
 
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
-
-#go to data 
-cd ../
-#make the  folder "processed"
-mkdir processed
-cd processed
-mkdir server_logs, user_logs, and event_logs
 
 # 5. Copy all server log files (files with "server" in the name AND a .log extension) from ./data/raw to ./data/processed/server_logs
 
